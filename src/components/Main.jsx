@@ -8,6 +8,8 @@ import {
 } from 'react-icons/fa';
 import FabioPic from '../assets/Fabio1.png';
 
+
+
 const Main = () => {
   return (
     <div class="grid grid-cols-3 gap-0">
@@ -56,10 +58,13 @@ const Main = () => {
               />
             </h2>
             <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-              <FaTwitter className='cursor-pointer' size={20} />
-              <FaFacebookF className='cursor-pointer' size={20} />
-              <FaInstagram className='cursor-pointer' size={20} />
-              <FaLinkedinIn className='cursor-pointer' size={20} />
+              
+            <a href='https://twitter.com/x'><FaTwitter className='cursor-pointer'  size={20} ></FaTwitter></a>
+           
+            <a href='https://www.facebook.com/fabioeduardo.dias.7/'><FaFacebookF className='cursor-pointer' size={20} ></FaFacebookF></a>
+            <a href='https://www.instagram.com/'><FaInstagram className='cursor-pointer' size={20} ></FaInstagram></a>
+            <a href='https://www.linkedin.com/'><FaLinkedinIn className='cursor-pointer' size={20} ></FaLinkedinIn></a>
+              
             </div>
           </div>
         </div></div></div>

@@ -5,8 +5,11 @@ const Contact = () => {
     <div class="bg-violet-400">
     <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
       <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e]'>
-        Contact
+        Contact me:
       </h1>
+      <h2 className='py-4 text-2xl font-bold text-center text-[#001b5e]'> E-mail: fabio.eds@hotmail.com </h2>
+      <h3 className='py-4 text-xl font-bold text-center text-[#001b5e]'>Phone Number: (424)542-1073</h3>
+      <h4 className='py-4 text-lg font-bold text-center text-[#001b5e]'>Or please fill out the form below:</h4>
       <form
         action='https://getform.io/f/a405f396-f15e-4495-9d9f-e22c0cf5faf5'
         method='POST'
