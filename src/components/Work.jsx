@@ -5,36 +5,39 @@ const data = [
   {
     year: 2020,
     title: 'Content Creator',
-    duration: '3 years',
+    duration: '',
     details:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, voluptates.',
   },
   {
-    year: 2017,
-    title: 'Google',
-    duration: '3 years',
+    year: 2023,
+    title: 'Education',
+    duration: '',
     details:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, voluptates.',
+      'Certificate in Full Stack Web Development - University of California - Berkeley ',
+      
   },
   {
     year: 2015,
-    title: 'Amazon',
-    duration: '2 years',
+    title: 'Technical Skills',
+    duration: '',
     details:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, voluptates.',
+      'JavaScript ES6+, CSS3, HTML5, C#, C, GitHub, MySQL, NoSQL, MongoDB, Express, Node, Handlebars, jQuery, Bootstrap, MATLAB, and Unity',
   },
   {
     year: 2012,
-    title: 'Facebook',
-    duration: '3 years',
+    title: 'Expiriences',
+    duration: '',
     details:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, voluptates.',
   },
 ];
 const Work = () => {
   return (
+
+    <div class="bg-violet-400" id='main'>
     <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-      <h1 className='text-4xl fotn-bold text-center text-[#001b5e]'>Work</h1>
+      <h1 className='text-4xl fotn-bold text-center text-[#001b5e]'>Resume</h1>
       {data.map((item, idx) => (
         <WorkItem
           key={idx}
@@ -44,6 +47,7 @@ const Work = () => {
           details={item.details}
         />
       ))}
+    </div>
     </div>
   );
 };

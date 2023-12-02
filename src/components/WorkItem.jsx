@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const WorkItem = ({ year, title, duration, details }) => {
   return (
     <ol className='flex flex-col md:flex-row relative border-l border-stone-200'>
@@ -15,7 +14,7 @@ const WorkItem = ({ year, title, duration, details }) => {
             {duration}
           </span>
         </p>
-        <p className='my-2 text-base font-normal text-stone-500'>{details}</p>
+        <p className='my-2 text-base text-[#001b5e] font-normal '>{details}</p>
       </li>
     </ol>
   );
